@@ -1,0 +1,576 @@
+.header-title {
+    background: lightblue !important;
+}
+.navbar-brand {
+    font-size: 25px;
+}
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .nav-link {
+    color: #333;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+.navbar-nav {
+    margin-left: 93px;
+}
+.nav-item {
+    margin-left: 10px;
+}
+.hero .image {
+    height: 570px;
+    width: 500px;
+}
+.hero i {
+    font-size: 20px;
+    color: #0ea2bd;
+    padding-left: 12px;
+}
+.hero h2 span {
+    color: #0ea2bd;
+}
+.hero a {
+    font-size: 20px;
+    color: black;
+}
+.carousel-item img {
+    height: 450px;
+    
+}
+.carousel-inner .carousel-caption, h5 {
+
+}
+.services .container {
+    background: white;
+    height: 900px;
+}
+.services .row {
+    margin-top: 20px;
+}
+.services .row .box {
+    border: 2px solid white;
+}
+.services img {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.services .details {
+    background: white;
+    height: 195px;
+    width: 295px;
+    border-radius: 8px;
+    padding: 50px 30px;
+    margin: -100px 30px 0 30px;
+    opacity: 0.9;
+    box-shadow: 2px 2px 6px 4px lightgray ;
+}
+.services .details h3 {
+    color: black ;
+    font-size: 20px;
+}
+.services .details p {
+    color: gray;
+    font-size: 13px;
+}
+.services .details h3:hover {
+    color: #1ec3e0;
+}
+.contact .container {
+    background: white;
+    height: 500px;
+}
+.contact .row .box {
+    border: 2px solid white;
+    margin-top: 13px;
+}
+.contact .info {
+    margin: 40px;
+    box-shadow: 0px 2px 15px 2px rgb(135, 134, 134);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.form-row {
+    margin-top: 67px;
+}
+.contact {
+    padding: 20px 0; /* Reduce the padding to minimize space */
+    margin-bottom: 20px; /* Add space at the bottom to ensure separation from the next section */
+    background-color: #f8f9fa; /* Background color for visual clarity */
+  }
+  
+  /* Adjust padding and margin for form and info items */
+  .contact .container {
+    padding: 15px;
+  }
+  
+  /* Info items (address, phone, email) */
+  .info-item {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px; /* Reduced padding */
+    margin-bottom: 15px; /* Reduced margin between items */
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .php-email-form .form-control {
+    padding: 8px; /* Smaller padding for form inputs */
+    font-size: 14px; /* Font size adjusted for readability */
+  }
+  
+  .php-email-form .cont-button {
+    padding: 8px 16px; /* Reduced button size */
+    font-size: 14px;
+  }
+  .fa-angle-up {
+    transition: transform 0.3s ease;
+}
+
+.btn.collapsed .fa-angle-up {
+    transform: rotate(180deg);
+}
+/* Base styles for desktop */
+.btn-link {
+    font-size: 16px;
+    padding: 12px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-link i {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+/* Card header text size */
+.card-header h2 {
+    font-size: 18px;
+}
+
+.card-body {
+    font-size: 16px;
+    padding: 15px;
+}
+/* Rotate the icon when the accordion is collapsed */
+.btn.collapsed .fa-angle-up {
+    transform: rotate(180deg);
+}
+
+.fa-angle-up {
+    transition: transform 0.3s ease;
+}
+
+
+/* Responsive styles for mobile devices */
+/* @media (max-width: 768px) { */
+    /* Adjust font size for better readability */
+   
+    /* General styles for the icons */
+.abt2-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #e63946;
+}
+
+/* Heading styles */
+.info-box h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Box layout */
+.box {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Responsive styles */
+/* @media (max-width: 768px) { */
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 399px) {
+    .services .container {
+        background: white;
+        height: 3000px;
+    }
+    .services .row {
+        margin-top: 0px;
+    }
+    .services .row .box {
+        border: 2px solid white;
+        margin-top: 15px;
+    }
+    .services .details {
+        background: white;
+        height: 184px;
+        width: 226px;
+        border-radius: 8px;
+        padding: 50px 30px;
+        margin: -100px 30px 0 30px;
+        opacity: 0.9;
+        box-shadow: 2px 2px 6px 4px lightgray;
+    }
+    .services .details h3 {
+        color: black;
+        font-size: 15px;
+    }
+    .services .details p {
+        color: gray;
+        font-size: 13px;
+    }
+    .icons {
+        font-size: 40px;
+        color: #e63946;
+        margin-bottom: 10px;
+    }
+    
+    /* Heading and paragraph styling */
+    .abt-data h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0;
+    }
+    
+    .abt-data p {
+        font-size: 1.2rem;
+    } .icons {
+        font-size: 28px;  /* Smaller icon for very small devices */
+    }
+    .abt-data h1 {
+        font-size: 1.6rem;
+    }
+    .abt-data p {
+        font-size: 0.8rem;
+    }
+    .container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 480px) {
+    .services .container {
+        background: white;
+        height: 2870px;
+    }
+    .services .details {
+        background: white;
+        height: 216px;
+        width: 304px;
+        border-radius: 8px;
+        padding: 50px 30px;
+        margin: -100px 30px 0 30px;
+        opacity: 0.9;
+        box-shadow: 2px 2px 6px 4px lightgray;
+    }
+    .services .details h3 {
+        color: black;
+        font-size: 20px;
+    }
+    .services .details p {
+        color: gray;
+        font-size: 15px;
+    }
+    .navbar {
+        padding: 5px 8px;
+      }
+    
+      .navbar-toggler {
+        font-size: 18px;
+      }
+    
+      .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+      }
+    
+      .nav-item {
+        margin: 5px 0;
+      }
+    
+      .nav-link {
+        font-size: 13px;
+        padding: 5px;
+      }
+    
+      h3 {
+        font-size: 20px;
+      }
+    
+      .navbar .btn {
+        padding: 6px 10px;
+        font-size: 12px;
+      }
+    
+      
+      .contact .container {
+        padding: 10px;
+        width: auto;
+        margin-bottom: 500px;
+      }
+    
+      /* Smaller font sizes for small screens */
+      .php-email-form .form-control {
+        font-size: 13px;
+        padding: 8px;
+        /* width: auto; */
+      }
+    
+      /* Smaller button on mobile */
+      .php-email-form .cont-button {
+        font-size: 12px;
+        padding: 8px 16px;
+        width: auto;
+      }
+
+.footer .container{
+ margin-top: 500px;
+}
+    }
+    
+
+@media screen and (min-width: 481px) and (max-width: 575px) {
+    
+    .services .container {
+        background: white;
+        height: 3190px;
+    }
+    .services .row {
+        margin-top: 0px;
+    }
+    .services .row .box {
+        border: 2px solid white;
+        margin-top: 15px;
+    }
+    .services .details {
+        background: white;
+        height: 200px;
+        width: 350px;
+        border-radius: 8px;
+        padding: 50px 30px;
+        margin: -95px 20px 0 88px;
+        opacity: 0.9;
+        box-shadow: 2px 2px 6px 4px lightgray;
+    }
+    .info-box h3 {
+        font-size: 14px;
+    }
+    
+    .abt2-icon {
+        font-size: 30px;
+    }
+    .icons {
+        font-size: 30px;  /* Even smaller for mobile */
+    }
+    .abt-data h1 {
+        font-size: 1.8rem;
+    }
+    .abt-data p {
+        font-size: 0.9rem;
+    }   
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .services .container {
+        background: white;
+        height: 3020px;
+    }
+    .services .row {
+        margin-top: 0px;
+    }
+    .services .row .box {
+        border: 2px solid white;
+        margin-top: 15px;
+    }
+    .services .details {
+        background: white;
+        height: 200px;
+        width: 300px;
+        border-radius: 8px;
+        padding: 50px 30px;
+        margin: -100px 30px 0 92px;
+        opacity: 0.9;
+        box-shadow: 2px 2px 6px 4px lightgray;
+    }
+    .contact .row {
+        flex-direction: column;
+      }
+    
+      /* Ensure enough spacing between the contact info and form */
+      .contact .col-lg-6 {
+        margin-bottom: 30px;
+      }
+      
+      /* Reduce margins and paddings for smaller screens */
+      .info-item {
+        padding: 15px;
+      }
+    
+      /* Adjust form input fields for smaller screens */
+      .php-email-form .form-control {
+        padding: 10px;
+        font-size: 14px;
+      }
+    
+      /* Adjust the submit button */
+      .php-email-form .cont-button {
+        padding: 10px 20px;
+        font-size: 14px;
+      }
+      .btn-link {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Ensure the icon is properly aligned */
+    .btn-link i {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .card-header h2 {
+        font-size: 16px;
+    }
+
+    /* Ensure accordion body fits nicely on mobile */
+    .card-body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Decrease spacing between cards */
+    .card {
+        margin-bottom: 10px;
+    }
+
+    /* Prevent long text from breaking layout */
+    .card-body span {
+        word-break: break-word;
+    }
+    
+    /* Add icon rotation when collapsed */
+    .btn.collapsed .fa-angle-up {
+        transform: rotate(180deg);
+    }
+
+    .fa-angle-up {
+        transition: transform 0.3s ease;
+    }
+    .icons {
+        font-size: 35px;  /* Slightly smaller for tablets */
+    }
+    .abt-data h1 {
+        font-size: 2rem;
+    }
+    .abt-data p {
+        font-size: 1rem;
+    }
+}
+
+/* Additional general styles */
+body, html {
+    overflow-x: hidden;
+}
+.info-box h3 {
+    font-size: 16px;
+}
+
+.abt2-icon {
+    font-size: 35px;
+}
+
+
+
+ 
+    
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    .services .container {
+        background: white;
+        height: 1446px;
+    }
+    .services .details {
+        background: white;
+        height: 195px;
+        width: 295px;
+        border-radius: 8px;
+        padding: 50px 30px;
+        margin: -100px 30px 0 15px;
+        opacity: 0.9;
+        box-shadow: 2px 2px 6px 4px lightgray;
+    }
+    .services .row {
+        margin-top: 0px;
+    }
+    .services .row .box {
+        border: 2px solid white;
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .services .container {
+        background: white;
+        height: 722px;
+    }
+    .services .details {
+        background: white;
+        height: 177px;
+        width: 256px;
+        border-radius: 8px;
+        padding: 36px 30px;
+        margin: -83px 30px 0 14px;
+        opacity: 0.9;
+        box-shadow: 2px 2px 6px 4px lightgray;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .services .container {
+        background: white;
+        height: 722px;
+    }
+    .services .details {
+        background: white;
+        height: 188px;
+        width: 293px;
+        border-radius: 8px;
+        padding: 36px 30px;
+        margin: -83px 30px 0 26px;
+        opacity: 0.9;
+        box-shadow: 2px 2px 6px 4px lightgray;
+    }
+} 
+
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .nav-link {
+    color: #333;
+    margin: 0 10px;
+    font-size: 16px;
+  }
